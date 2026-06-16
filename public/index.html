@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>API Performance Monitor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>API Performance Monitor</h1>
+
+    <div>
+        <input id="apiUrl" placeholder="Enter API URL">
+        <button onclick="checkApi()">Test API</button>
+    </div>
+
+    <h2>Results</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>URL</th>
+                <th>Status</th>
+                <th>Response Time (ms)</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
